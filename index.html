@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung / Privacy Policy — JellyTV</title>
+<meta name="description" content="Datenschutzerklärung für JellyTV (Rockes Software). Privacy policy for JellyTV.">
+<style>
+  :root {
+    --purple: #7C4DFF;
+    --bg: #0e0e12;
+    --card: #17171f;
+    --text: #e8e8ef;
+    --muted: #9a9aab;
+    --line: #2a2a36;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  header {
+    background: var(--purple);
+    padding: 34px 22px 30px;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; }
+  header h1 { margin: 0; font-size: 26px; letter-spacing: .2px; color: #fff; }
+  header p { margin: 6px 0 0; color: rgba(255,255,255,.82); font-size: 14px; }
+  nav {
+    display: flex; gap: 8px; margin-top: 18px;
+  }
+  nav a {
+    color: #fff; text-decoration: none; font-size: 13px; font-weight: 600;
+    border: 1px solid rgba(255,255,255,.45); border-radius: 99px; padding: 5px 14px;
+  }
+  nav a:hover { background: rgba(255,255,255,.16); }
+  main { padding: 28px 22px 60px; }
+  section.lang { padding-top: 8px; }
+  h2 {
+    font-size: 19px; margin: 40px 0 6px; padding-top: 18px;
+    border-top: 1px solid var(--line);
+  }
+  section.lang > h2:first-of-type { border-top: 0; padding-top: 0; }
+  h3 { font-size: 15px; margin: 26px 0 6px; color: #fff; }
+  p, li { color: var(--text); }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  .muted { color: var(--muted); font-size: 14px; }
+  .meta {
+    background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+    padding: 16px 18px; margin: 18px 0 4px; font-size: 15px;
+  }
+  .meta p { margin: 2px 0; }
+  .note {
+    background: var(--card); border-left: 3px solid var(--purple); border-radius: 0 10px 10px 0;
+    padding: 14px 18px; margin: 18px 0; font-size: 15px;
+  }
+  .note p { margin: 0; }
+  a { color: #b39dff; }
+  code {
+    background: #20202b; border-radius: 5px; padding: 1px 5px;
+    font-size: 13px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  footer {
+    border-top: 1px solid var(--line); padding: 22px; color: var(--muted); font-size: 13px;
+    text-align: center;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #fbfbfd; --card: #fff; --text: #1b1b21; --muted: #5f5f70; --line: #e3e3ec;
+    }
+    header { background: var(--purple); }
+    h3 { color: #111; }
+    code { background: #eeeef5; }
+    a { color: #5b32d6; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Datenschutzerklärung · Privacy Policy</h1>
+    <p>JellyTV — Rockes Software</p>
+    <nav>
+      <a href="#de">Deutsch</a>
+      <a href="#en">English</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- ============================ DEUTSCH ============================ -->
+<section class="lang" id="de" lang="de">
+
+  <h2>Datenschutzerklärung für JellyTV</h2>
+  <p class="muted">Stand: 9. November 2026 · Version 1.0</p>
+
+  <h3>1. Verantwortlicher</h3>
+  <div class="meta">
+    <p><strong>Rockes Software</strong> — Alexander ⟨NACHNAME⟩</p>
+    <p>⟨STRASSE HAUSNUMMER⟩</p>
+    <p>⟨PLZ ORT⟩, Deutschland</p>
+    <p>E-Mail: <a href="mailto:RockesSoftware@gmail.com">RockesSoftware@gmail.com</a></p>
+  </div>
+
+  <h3>2. Wovon diese Erklärung handelt</h3>
+  <p>JellyTV ist eine App für Android TV und Android, die eine selbst betriebene
+  Jellyfin-Medienbibliothek in fortlaufende Programme verwandelt. Es gibt
+  <strong>kein Benutzerkonto bei uns</strong>, keine Registrierung, keine Werbung und keine
+  Analyse-, Tracking- oder Absturzbericht-Dienste. Wir betreiben keinen Server, auf dem dein
+  Nutzungsverhalten ausgewertet wird.</p>
+
+  <h3>3. Welche Daten verarbeitet werden</h3>
+
+  <h3>3.1 Jellyfin-Zugangsdaten</h3>
+  <p>Serveradresse, Benutzername und Passwort deines Jellyfin-Servers. Diese Angaben sind
+  erforderlich, um dich an deinem eigenen Server anzumelden.</p>
+  <ul>
+    <li><strong>Speicherung:</strong> ausschließlich auf deinem Gerät, verschlüsselt mit
+      AES-256-GCM. Der Schlüssel liegt im Android Keystore und kann das Gerät nicht verlassen.</li>
+    <li><strong>Übermittlung:</strong> ausschließlich an die von dir angegebene Serveradresse.</li>
+    <li><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. b DSGVO (Erfüllung des von dir
+      gewünschten Dienstes).</li>
+  </ul>
+
+  <h3>3.2 Konfiguration und Wiedergabezustand</h3>
+  <p>Kanäle, Quellen, Einstellungen und der zuletzt gespielte Kanal werden ausschließlich lokal
+  gespeichert. Eine Sicherung in Google-Backups findet nicht statt
+  (<code>allowBackup=false</code>).</p>
+
+  <h3>3.3 Sync-Funktion (optional, standardmäßig ausgeschaltet)</h3>
+  <p>Wenn du den Sync aktivierst, wird deine Konfiguration — einschließlich der
+  Jellyfin-Zugangsdaten — <strong>auf deinem Gerät verschlüsselt</strong>, bevor sie das Gerät
+  verlässt:</p>
+  <ul>
+    <li>Verschlüsselung: AES-256-GCM</li>
+    <li>Schlüsselableitung: PBKDF2-HMAC-SHA256 mit 210.000 Iterationen aus deinem Sync-Key</li>
+    <li>Sync-Key: 100 Bit Zufallswert, wird nur auf deinen Geräten angezeigt</li>
+    <li>Dokument-ID: SHA-256-Hash deines Sync-Keys</li>
+  </ul>
+  <p>An Google Cloud Firestore übertragen werden ausschließlich Salt, Chiffrat und eine
+  Revisionsnummer. <strong>Ohne deinen Sync-Key sind diese Daten nicht entschlüsselbar — auch
+  nicht für uns und nicht für Google.</strong></p>
+  <p>Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO (deine Einwilligung durch das Aktivieren der
+  Funktion). Du kannst sie jederzeit beenden.</p>
+
+  <h3>3.4 Gerätekennung und Gerätemodell</h3>
+  <p>Die App erzeugt eine geräteeigene Kennung und liest das Gerätemodell, um sich gegenüber
+  deinem Jellyfin-Server als eigenständiges Gerät zu identifizieren. Diese Angaben gehen an
+  deinen Jellyfin-Server, nicht an uns.</p>
+
+  <h3>3.5 Lokaler Konfigurationsserver</h3>
+  <p>Zur Einrichtung betreibt die App auf deinem Gerät einen HTTP-Server (Port 8089) in deinem
+  lokalen Netzwerk. Die Bedienoberfläche öffnest du im Browser eines anderen Geräts im selben
+  Netzwerk. Dabei werden keine Daten an uns übertragen — die Verbindung bleibt in deinem
+  Netzwerk.</p>
+  <div class="note">
+    <p><strong>Bitte beachte:</strong> Solange die App läuft, ist dieser Server für andere Geräte
+    in deinem Netzwerk erreichbar. In fremden WLANs (Hotel, Café, Büro, Wohngemeinschaft) kannst du
+    ihn beenden, indem du die App schließt. Die Einrichtung selbst solltest du nur in einem
+    Netzwerk durchführen, dem du vertraust.</p>
+  </div>
+
+  <h3>3.6 Verbindungssicherheit</h3>
+  <p>Die Verbindung zu deinem Jellyfin-Server nutzt das von dir eingegebene Protokoll. Im
+  Heimnetz ist das üblicherweise unverschlüsseltes HTTP. Die Verbindung zu Google Cloud Firestore
+  erfolgt ausschließlich über HTTPS/TLS.</p>
+
+  <h3>3.7 Was nicht verarbeitet wird</h3>
+  <p>Keine Werbe-ID, keine Standortdaten, kein Zugriff auf Kontakte, Fotos, Dateien oder Mikrofon,
+  keine Analyse, kein Tracking, keine Profilbildung, keine automatisierte Entscheidungsfindung und
+  kein Verkauf von Daten. Die App fordert ausschließlich die Berechtigungen
+  <code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>, <code>ACCESS_WIFI_STATE</code> und
+  <code>WAKE_LOCK</code> an.</p>
+
+  <h3>4. Empfänger der Daten</h3>
+  <ul>
+    <li><strong>Dein Jellyfin-Server</strong> — von dir gewählt und von dir betrieben.</li>
+    <li><strong>Google Ireland Limited</strong>, Gordon House, Barrow Street, Dublin 4, Irland
+      bzw. <strong>Google LLC</strong>, USA (Firebase Authentication anonym und Cloud Firestore)
+      — ausschließlich bei aktiviertem Sync. Die Übermittlung in die USA stützt sich auf das
+      EU-US Data Privacy Framework bzw. die EU-Standardvertragsklauseln.</li>
+  </ul>
+  <p>Darüber hinaus werden keine Daten weitergegeben.</p>
+
+  <h3>5. Speicherdauer</h3>
+  <ul>
+    <li><strong>Lokal:</strong> bis du die Daten löschst oder die App deinstallierst.</li>
+    <li><strong>Cloud (nur bei aktivem Sync):</strong> bis du sie löschst (siehe Punkt 6).</li>
+  </ul>
+
+  <h3>6. Löschung deiner Daten</h3>
+  <ul>
+    <li><strong>Lokal:</strong> App deinstallieren oder die Einrichtung in der App zurücksetzen.</li>
+    <li><strong>Cloud:</strong> In der App unter <em>Sync → Cloud-Daten löschen</em>. Damit wird das
+      gespeicherte Dokument sofort entfernt. Alternativ genügt eine E-Mail an
+      <a href="mailto:RockesSoftware@gmail.com">RockesSoftware@gmail.com</a>.</li>
+  </ul>
+  <p>Wenn du deinen Sync-Key verloren hast, lässt sich das Cloud-Dokument technisch keiner Person
+  mehr zuordnen — es ist dann auch inhaltlich nicht mehr lesbar, weil der Schlüssel nur auf deinen
+  Geräten existiert.</p>
+
+  <h3>7. Deine Rechte</h3>
+  <p>Du hast das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17),
+  Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch
+  (Art. 21 DSGVO). Eine erteilte Einwilligung kannst du jederzeit widerrufen.</p>
+  <p>Außerdem steht dir ein Beschwerderecht bei einer Datenschutz-Aufsichtsbehörde zu, insbesondere
+  in dem Bundesland deines Wohnsitzes oder des Orts des vermuteten Verstoßes.</p>
+
+  <h3>8. Kinder</h3>
+  <p>JellyTV richtet sich nicht an Kinder unter 16 Jahren und ist nicht für sie bestimmt.</p>
+
+  <h3>9. Unabhängigkeit vom Jellyfin-Projekt</h3>
+  <p>JellyTV ist ein unabhängiger Client für Jellyfin. Die App ist nicht mit dem Jellyfin-Projekt
+  verbunden und wird von diesem weder unterstützt noch gesponsert. „Jellyfin“ ist ein Projekt der
+  Jellyfin-Gemeinschaft; alle Rechte liegen bei den jeweiligen Rechteinhabern.</p>
+
+  <h3>10. Änderungen dieser Erklärung</h3>
+  <p>Wird die App um Funktionen erweitert, die die Datenverarbeitung verändern, wird diese
+  Erklärung vorher angepasst. Maßgeblich ist die jeweils hier veröffentlichte Fassung.</p>
+
+</section>
+
+<!-- ============================ ENGLISH ============================ -->
+<section class="lang" id="en" lang="en">
+
+  <h2>Privacy Policy for JellyTV</h2>
+  <p class="muted">Last updated: 9 November 2026 · Version 1.0</p>
+
+  <h3>1. Controller</h3>
+  <div class="meta">
+    <p><strong>Rockes Software</strong> — Alexander ⟨LAST NAME⟩</p>
+    <p>⟨STREET AND NUMBER⟩</p>
+    <p>⟨POSTAL CODE, CITY⟩, Germany</p>
+    <p>Email: <a href="mailto:RockesSoftware@gmail.com">RockesSoftware@gmail.com</a></p>
+  </div>
+
+  <h3>2. What this policy covers</h3>
+  <p>JellyTV is an app for Android TV and Android that turns a self-hosted Jellyfin media library
+  into continuously running channels. There is <strong>no account with us</strong>, no
+  registration, no advertising, and no analytics, tracking or crash-reporting services. We do not
+  operate any server that evaluates how you use the app.</p>
+
+  <h3>3. What data is processed</h3>
+
+  <h3>3.1 Jellyfin credentials</h3>
+  <p>The server address, user name and password of your Jellyfin server. These are required to
+  sign you in to your own server.</p>
+  <ul>
+    <li><strong>Storage:</strong> on your device only, encrypted with AES-256-GCM. The key lives in
+      the Android Keystore and cannot leave the device.</li>
+    <li><strong>Transmission:</strong> only to the server address you entered.</li>
+    <li><strong>Legal basis:</strong> Art. 6(1)(b) GDPR.</li>
+  </ul>
+
+  <h3>3.2 Configuration and playback state</h3>
+  <p>Channels, sources, settings and the last played channel are stored locally only. There is no
+  backup to Google (<code>allowBackup=false</code>).</p>
+
+  <h3>3.3 Sync (optional, off by default)</h3>
+  <p>If you enable sync, your configuration — including the Jellyfin credentials — is
+  <strong>encrypted on your device</strong> before it leaves it:</p>
+  <ul>
+    <li>Cipher: AES-256-GCM</li>
+    <li>Key derivation: PBKDF2-HMAC-SHA256, 210,000 iterations, from your sync key</li>
+    <li>Sync key: a 100-bit random value shown only on your devices</li>
+    <li>Document ID: the SHA-256 hash of your sync key</li>
+  </ul>
+  <p>Only the salt, the ciphertext and a revision number are sent to Google Cloud Firestore.
+  <strong>Without your sync key this data cannot be decrypted — not by us and not by Google.</strong></p>
+  <p>Legal basis: Art. 6(1)(a) GDPR (your consent by enabling the feature). You can withdraw it at
+  any time.</p>
+
+  <h3>3.4 Device identifier and model</h3>
+  <p>The app generates a device-specific identifier and reads the device model so it can identify
+  itself as a distinct device towards your Jellyfin server. This information goes to your Jellyfin
+  server, not to us.</p>
+
+  <h3>3.5 Local configuration server</h3>
+  <p>For setup, the app runs an HTTP server (port 8089) on your device inside your local network.
+  You open the interface in a browser on another device on the same network. No data is sent to
+  us — the connection stays within your network.</p>
+  <div class="note">
+    <p><strong>Please note:</strong> while the app is running, that server is reachable by other
+    devices on your network. On untrusted networks (hotel, café, office, shared flat) you can shut
+    it down by closing the app. Only perform setup on a network you trust.</p>
+  </div>
+
+  <h3>3.6 Transport security</h3>
+  <p>The connection to your Jellyfin server uses the scheme you entered — typically unencrypted
+  HTTP inside a home network. The connection to Google Cloud Firestore always uses HTTPS/TLS.</p>
+
+  <h3>3.7 What is not processed</h3>
+  <p>No advertising ID, no location data, no access to contacts, photos, files or microphone, no
+  analytics, no tracking, no profiling, no automated decision-making and no sale of data. The app
+  requests only the <code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>,
+  <code>ACCESS_WIFI_STATE</code> and <code>WAKE_LOCK</code> permissions.</p>
+
+  <h3>4. Recipients</h3>
+  <ul>
+    <li><strong>Your Jellyfin server</strong> — chosen and operated by you.</li>
+    <li><strong>Google Ireland Limited</strong>, Gordon House, Barrow Street, Dublin 4, Ireland
+      and <strong>Google LLC</strong>, USA (Firebase anonymous authentication and Cloud Firestore)
+      — only when sync is enabled. Transfers to the USA rely on the EU-US Data Privacy Framework or
+      the EU Standard Contractual Clauses.</li>
+  </ul>
+  <p>No other sharing takes place.</p>
+
+  <h3>5. Retention</h3>
+  <ul>
+    <li><strong>Local:</strong> until you delete the data or uninstall the app.</li>
+    <li><strong>Cloud (sync only):</strong> until you delete it (see section 6).</li>
+  </ul>
+
+  <h3>6. Deleting your data</h3>
+  <ul>
+    <li><strong>Local:</strong> uninstall the app or reset the setup inside the app.</li>
+    <li><strong>Cloud:</strong> in the app under <em>Sync → Delete cloud data</em>, which removes
+      the stored document immediately. Alternatively, email
+      <a href="mailto:RockesSoftware@gmail.com">RockesSoftware@gmail.com</a>.</li>
+  </ul>
+  <p>If you have lost your sync key, the cloud document can no longer be attributed to any person —
+  its contents are unreadable because the key exists only on your devices.</p>
+
+  <h3>7. Your rights</h3>
+  <p>You have the right to access (Art. 15 GDPR), rectification (Art. 16), erasure (Art. 17),
+  restriction of processing (Art. 18), data portability (Art. 20) and objection (Art. 21 GDPR).
+  You may withdraw any consent at any time.</p>
+  <p>You also have the right to lodge a complaint with a data protection supervisory authority,
+  in particular in the EU member state where you live or where the alleged infringement occurred.</p>
+
+  <h3>8. Children</h3>
+  <p>JellyTV is not directed at children under 16 and is not intended for them.</p>
+
+  <h3>9. Independence from the Jellyfin project</h3>
+  <p>JellyTV is an independent client for Jellyfin. It is not affiliated with, endorsed by or
+  sponsored by the Jellyfin project. “Jellyfin” is a project of the Jellyfin community; all rights
+  remain with their respective owners.</p>
+
+  <h3>10. Changes</h3>
+  <p>If the app gains features that change how data is processed, this policy will be updated
+  beforehand. The version published here is the one that applies.</p>
+
+</section>
+
+</main>
+
+<footer>
+  Rockes Software · JellyTV ·
+  <a href="mailto:RockesSoftware@gmail.com">RockesSoftware@gmail.com</a><br>
+  Unabhängiger Jellyfin-Client · Independent Jellyfin client
+</footer>
+
+</body>
+</html>
