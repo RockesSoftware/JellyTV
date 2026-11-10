@@ -1,5 +1,5 @@
 # JellyTV Pages
 
-Statische Seiten fuer die JellyTV-App.
+Statische Seiten fuer die JellyTuner-App.
 
 - `index.html` - Datenschutzerklaerung / Privacy Policy (DE + EN)
