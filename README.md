@@ -1,4 +1,4 @@
-# JellyTV Pages
+# JellyTuner Pages
 
 Statische Seiten fuer die JellyTuner-App.
 
